@@ -10,7 +10,10 @@
     });
 });*/
 $(document).ready(function () {
-    $("p").click(function () {
+    $("#appear").click(function () {
         $('img').show(2000);
+    });
+    $("#disappear").click(function () {
+        $('img').hide(2000);
     });
 });
