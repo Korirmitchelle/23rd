@@ -9,11 +9,24 @@
         alert("This is an image!");
     });
 });*/
-$(document).ready(function () {
+
+
+/*$(document).ready(function () {
     $("#appear").click(function () {
         $('img').show(2000);
     });
     $("#disappear").click(function () {
         $('img').hide(2000);
     });
+});*/
+
+
+/*$(document).ready(function () {
+    $('li').css('color', 'blue');
+});*/
+
+$("li").hover(function () {
+    $(this).css("color", "yellow");
+}, function () {
+    $(this).css("color", "blue");
 });
