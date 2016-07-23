@@ -1,4 +1,4 @@
-$(document).ready(function () {
+/*$(document).ready(function () {
     $("h1").click(function () {
         alert("This is a header!");
     });
@@ -7,5 +7,10 @@ $(document).ready(function () {
     });
     $("img").click(function () {
         alert("This is an image!");
+    });
+});*/
+$(document).ready(function () {
+    $("p").click(function () {
+        $('img').show();
     });
 });
