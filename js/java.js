@@ -11,6 +11,6 @@
 });*/
 $(document).ready(function () {
     $("p").click(function () {
-        $('img').show();
+        $('img').show(2000);
     });
 });
